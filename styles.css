@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    background: linear-gradient(
+        45deg,
+        red,
+        green,
+        blue,
+        rebeccapurple,
+        yellow,
+        orange,
+        blue
+    );
+}
+
+.container {
+    background-color: #fff;
+    width: 80vw;
+    max-width: 480px;
+    min-height: 320px;
+    padding: 30px;
+    border-radius: 8px;
+    display: grid;
+    /* grid-template-rows: auto auto 1fr; */
+}
+#text {
+    font-size: 1.5rem;
+}
+.text-right {
+    text-align: right;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+button,
+a {
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    border: transparent;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+
+#tweet-quote {
+    background-color: #00aced;
+}
+
+#new-quote {
+    background-color: #d35400;
+}
